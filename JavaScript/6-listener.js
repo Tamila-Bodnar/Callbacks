@@ -3,7 +3,7 @@
 const iterate = (array, listener) => {
   for (const item of array) {
     listener(item);
-  }
+  }  
 };
 
 const cities = ['Kiev', 'London', 'Beijing'];

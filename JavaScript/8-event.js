@@ -21,10 +21,10 @@ const maxReached = value => {
   console.log('max value reached, value: ' + value);
 };
 
-const a1 = adder(10).max(100, maxReached)(-12);
+const a1 = adder(10).max(100, maxReached)(-12)(-6);
 
 a1(25);
-a1(50);
+a1(50)(-20);
 a1(75);
 a1(100);
 a1(-200)(50)(30);
